@@ -1,0 +1,28 @@
+body{
+front-family: "Helventica";
+margin: 0 auto;
+width: 1200px;
+background: #535326;
+}
+
+artice{
+background: #fff;
+border-top: 5px solid #424242;
+border-bottom: 10px solid #424242;
+padding: 2em;
+}
+
+h1{
+margin: 0 0 1em 0;
+font-size: 2.5em;
+}
+
+h2{
+	
+	font-weight: normal;
+}
+
+p{
+padding: 0.5em;	
+
+}
