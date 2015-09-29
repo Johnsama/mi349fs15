@@ -14,10 +14,22 @@ border-top: 10px solid #424242;
 
 .recipe{
 padding: 20px 40px;
-background: #fff;
+background: #ccc;
 opacity:;
 }
 
 .recipe h2{
+	font-family:courier;
+	font-size: 150%;
+ }
+ 
+ .recipe ul{
+
+	 padding: 15px;
+	 margin: 10px;
+ }
+ 
+ .recipe h1{
+	 font-size: 200%;
  }
  
