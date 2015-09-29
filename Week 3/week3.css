@@ -1,0 +1,23 @@
+body{
+background:#ccc;
+Margin:0;
+font-family: Helvetica;
+}
+
+.container{
+margin: 0 auto;
+width: 700px;
+background: #fff url(Alton-brown-onion-dip.jp) no-repeat top center;
+padding-top: 150px;
+border-top: 10px solid #424242;
+}
+
+.recipe{
+padding: 20px 40px;
+background: #fff;
+opacity:;
+}
+
+.recipe h2{
+ }
+ 
