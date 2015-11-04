@@ -1,0 +1,33 @@
+.column{
+  margin: 0 auto;
+  width: 50%;
+  background: #e3e3e3;
+  padding: 1em;
+  -webkit-column-count: 3;
+}
+
+@media (max-width: 1200px){
+  .column{
+    width: 70%;
+    -webkit-column-count: 2;
+  }
+}
+
+@media (max-width: 800px){
+  .column{
+    width: 80%;
+    -webkit-column-count: 1;
+  }
+}
+
+@media (max-width: 400px){
+  .column{
+    width:100%;
+    -webkit-column-count: 1;
+  }
+}
+
+@media(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+  /* Retina */
+  
+}
