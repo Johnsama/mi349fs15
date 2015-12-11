@@ -1,33 +1,66 @@
-.column{
+.toppic {
   margin: 0 auto;
-  width: 50%;
-  background: #e3e3e3;
-  padding: 1em;
-  -webkit-column-count: 3;
+  width: 700px;
+    padding-top: 150px;
+  border-top: 10px solid #424242;
 }
 
-@media (max-width: 1200px){
-  .column{
+.containerner{
+background: #fff url:("YoutubeBanner.png") no-repeat top center;
+}
+
+.recipe {
+  padding: 10px 0px;
+  background: #fff;
+  opacity: ;
+}
+
+#sidebar {
+  border: 1px solid #000;
+  float: right;
+   width: 10em;
+}
+
+#header {
+  border: 1px solid #000;
+  width: 530px;
+  margin: 0 0 5px 0;
+}
+
+#content {
+  border: 1px solid #000;
+  width: 530px;
+  margin: 5px 0 5px 0;
+}
+
+#footer {
+  border: 1px solid #000;
+  width: 530px;
+  margin: 5px 0 0 0;
+}
+
+@media (max-width: 1200px) {
+  .column {
     width: 70%;
     -webkit-column-count: 2;
   }
 }
 
-@media (max-width: 800px){
-  .column{
+@media (max-width: 800px) {
+  .column {
     width: 80%;
     -webkit-column-count: 1;
   }
 }
 
-@media (max-width: 400px){
-  .column{
-    width:100%;
+@media (max-width: 400px) {
+  .column {
+    width: 100%;
     -webkit-column-count: 1;
   }
 }
 
-@media(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+@media(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
   /* Retina */
-  
 }

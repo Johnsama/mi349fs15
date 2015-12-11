@@ -1,0 +1,70 @@
+body {
+  background: #ccc;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  border-top: 10px solid #424242;
+}
+
+img{
+height: 150px;
+background: #e3e3e3;
+}
+
+.one-pager {
+  padding: 20px 40px;
+  background: #fff;
+}
+
+/*
+Pseudo classes
+LoVHAte (:link, :visited, :hover, :active)
+:first-child
+:last-child
+:nth-child(an+b/even/odd/n)
+*/
+
+a:link{
+	color: red;
+	text-decoration:none; 
+}
+
+a:visited{
+	color: grey; 
+}
+
+a:hover{
+	background: yellow;
+}
+
+
+
+
+ul li:nth-child(3n+1){ /*odd, even, n , 3n+5 or whatever */
+	background: #e3e3e3; 
+}
+
+
+
+/* Inline, Inline-Block and Block */
+ul{
+	padding: 10px;
+}
+
+ul li{
+	display: inline-block;
+	padding: 10px;
+	width: 280px;
+	border: 1px solid #ccc;
+}
+
+
+h2{
+	clear: both;
+	margin-top: 20px;
+	 border-top: 5px solid red;
+}
